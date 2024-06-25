@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Dongle", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FAF7F1;
+}
+
+.container {
+    background: #ffffff;
+    padding: 8rem;
+    border-radius: 30px;
+    width: 64rem;
+    height: auto;
+    text-align: center;
+    font-family: "Be Vietnam Pro", sans-serif;
+    justify-content: center;
+    align-items: end;
+}
+
+.titulo-cadastro-voluntario {
+    margin-bottom: 20px;
+    font-family: "Dongle", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.etapas-cadastro-voluntario {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.etapa-cadastro-voluntario {
+    text-align: center;
+}
+
+.numero {
+    width: 30px;
+    height: 30px;
+    background: #FF671F;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 5px;
+}
+
+.etapa p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.linha-divisoria {
+    border: solid 1px #253127;
+    width: 150px;
+    height: 1px;
+}
+
+.forms-botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: right;
+}
+
+.formulario {
+    margin-bottom: 20px;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-cadastro-voluntario {
+    width: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FAF7F1;
+}
+
+.input-group {
+    display: flex;
+    margin-right: 20px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Dongle", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+
+    gap: 70px;
+}
+
+button {}
+
+.conta-existente {
+    background: none;
+    border: 2px solid #FF671F;
+    color: #FF671F;
+
+    width: 200px;
+
+    padding: 2px;
+
+    border-radius: 8px;
+    cursor: pointer;
+
+
+
+
+
+}
+
+.proximo {
+    background: #FF671F;
+
+    width: 200px;
+
+    padding: 1px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+.midias-sociais {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: #253127;
+}
+
+.midias-sociais .titulo-midias-sociais {
+    font-size: 1rem;
+    font-weight: 500;
+
+    margin-top: 5px;
+}
+
+.titulo-outro-login {
+    display: flex;
+    flex-direction: row;
+}
+
+.icones {
+    display: flex;
+    gap: 40px;
+
+
+}
