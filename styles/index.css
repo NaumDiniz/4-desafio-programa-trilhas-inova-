@@ -260,7 +260,9 @@ a {
 }
 
 .barra-laranja {
-  margin-top: 64px;
+  margin: 0;
+  padding: 0;
+  margin-top: 4rem;
   width: calc(100% + 140px);
   /* 100% + margem do body */
   margin-inline: -70px;
@@ -530,6 +532,9 @@ a {
 
 .depoimentos__cards__card {
   width: 300px;
+  background-color: #FAF7F1;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
 }
 
 .depoimentos__cards__card__cabecalho {
@@ -778,7 +783,10 @@ footer {
   }
 
   .barra-laranja {
-    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   .header-LandingPage {
@@ -788,12 +796,36 @@ footer {
 
   .introducao-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+  }
+
+  .botoes-introducao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulo-introducao {
+    text-align: center;
+  }
+
+  .paragrafo-introducao {
+    text-align: center;
+  }
+
+  .bloco-superior-funcionamento {
+    width: 20rem;
   }
 
   .lado-esquerdo-funcionalidades {
     margin: 0;
+    display: flex;
+    justify-content: center;
   }
+
 
   .textos-blocos {
     margin: 0;
@@ -810,15 +842,33 @@ footer {
   .depoimentos__cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .sobreNos {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
+  }
+  .depoimentos h2 {
+    margin-bottom: 0;
+  }
+
+  .depoimentos__cards__card {
+    margin-top: 2rem;
   }
 
   .sobreNos__content {
     margin: 0;
+    text-align: center;
+  }
+
+  .sobreNos__content__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   .container-conteudos-funcionalidades {
@@ -830,12 +880,24 @@ footer {
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: center;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
   }
 
   .contato .esquerda img {
     width: 400px;
+  }
+
+  .contato .titulo-subtitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contato h2, .contato p {
+    text-align: center;
+    width: 20rem;
   }
 
   footer {
