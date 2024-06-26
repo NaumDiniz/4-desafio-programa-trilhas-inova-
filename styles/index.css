@@ -765,6 +765,10 @@ footer {
 
 
 @media (width <= 1250px) {
+  html {
+    display: flex;
+    
+  }
   body {
     display: flex;
     flex-direction: column;
@@ -826,6 +830,8 @@ footer {
     padding: 0;
     display: flex;
     flex-direction: column;
+    align-items: left;
+    justify-content: center;
   }
 
   .contato .esquerda img {
